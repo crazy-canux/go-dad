@@ -1,4 +1,4 @@
 /*
     go-dad
 */
-package go-dad
+package go_dad
