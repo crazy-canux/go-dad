@@ -23,6 +23,6 @@ non-comparison sort
 
 3. bucket sort
 
- */
+*/
 
- package sort
+package sort

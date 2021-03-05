@@ -1,6 +1,7 @@
 package search
 
-func Binary(orderSeq []int64, keyword int64) int {
+// BinarySearch ...
+func BinarySearch(orderSeq []int64, keyword int64) int {
 	minIdx := 0
 	maxIdx := len(orderSeq) - 1
 	for minIdx <= maxIdx {
