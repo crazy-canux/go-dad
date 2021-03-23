@@ -1,6 +1,6 @@
 package sort
 
-// InsertionSort ...
+// InsertionSort
 func InsertionSort(seq []int64) []int64 {
 	for i := 1; i < len(seq); i++ {
 		insertIndex := i
