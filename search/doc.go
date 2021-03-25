@@ -1,9 +1,9 @@
 /*
-1. sequential search
+1. linear search
 
 2. binary search
 
-3. insertion search
+3. interpolation search
 
 4. fibonacci search
 
