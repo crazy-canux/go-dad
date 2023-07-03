@@ -6,3 +6,13 @@
 # go-dad
 
 Include data structure, algorithm and design pattern.
+
+Include data structure, algorithm and design pattern.
+
+Related project:
+
+<https://github.com/tmrts/go-patterns>
+
+<https://github.com/halfrost/LeetCode-Go>
+
+<https://github.com/TheAlgorithms/Go>
