@@ -1,4 +1,4 @@
 /*
-   go-dad 1.0.0
+go-dad 1.0.0
 */
-package go_dad
+package main
