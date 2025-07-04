@@ -2,9 +2,19 @@ package main
 
 import "fmt"
 
+func worker(ch <-chan int) {
+	for val := range ch {
+		fmt.Println("received:", val)
+	}
+	fmt.Println("channel closed, exit goroutine")
+}
+
 func main() {
-	fmt.Println("start")
-	defer fmt.Println("end")
-	panic("test panic")
-	fmt.Println("this will not be printed")
+	ch := make(chan int)
+
+	go worker(ch)
+
+	ch <- 1
+	ch <- 2
+	close(ch)
 }
